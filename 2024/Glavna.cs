@@ -30,6 +30,25 @@ namespace _2024
                 Console.WriteLine();
             }
 
+            Red q = new Red(5);
+
+            q.Dodaj_ZakljucavanjeResursa(1);
+            q.Dodaj_ZakljucavanjeResursa(2);
+            q.Dodaj_ZakljucavanjeResursa(3);
+            q.Dodaj_ZakljucavanjeResursa(4);
+
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+
+            q.Dodaj_ZakljucavanjeResursa(5);
+            q.Dodaj_ZakljucavanjeResursa(6);
+
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+            Console.WriteLine(q.Procitaj_ZakljucavanjeResursa());
+            
+
             #endregion
         }
     }
